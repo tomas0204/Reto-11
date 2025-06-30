@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+.welcome{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imagen_inicial{
+    width: 100%;
+    display: block; 
+    filter: brightness(40%);
+}
+
+hr{
+    margin: 10px;
+}
+
+.div_welcome{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.menu{
+    padding: 20px;
+    text-align: center;
+}
